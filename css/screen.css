@@ -9,7 +9,15 @@ html {
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
-    padding: 48px 24px 24px;
+    padding: 48px 24px 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    max-width: 42em;
+    margin: 0 auto;
+
 }
 
 /*
@@ -20,13 +28,13 @@ html {
  */
 
 ::-moz-selection {
-    background: #E85E00
+    background: #E85E00;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #E85E00
+    background: #E85E00;
     color: white;
     text-shadow: none;
 }
